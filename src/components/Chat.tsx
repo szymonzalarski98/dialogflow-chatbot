@@ -31,9 +31,9 @@ const Chat: React.SFC = () => {
   return (
     <Widget
       handleNewUserMessage={handleNewUserMessage}
-      title="SkateSpace Bot"
-      subtitle="Powered by SkateSpace."
-      psenderPlaceHolder="Napisz wiadomość"
+      title="Simple Dialogflow Bot"
+      subtitle="Made with ❤️ by Szymon Zalarski"
+      psenderPlaceHolder="Send a message..."
       badge={0}
     />
   )
