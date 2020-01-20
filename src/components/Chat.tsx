@@ -3,6 +3,7 @@ import { Widget, addResponseMessage } from 'react-chat-widget';
 import 'react-chat-widget/lib/styles.css';
 import axios from 'axios';
 import cuid from 'cuid';
+import './widget-styles.css';
 
 const Chat: React.SFC = () => {
   const [sessionId, setSessionId] = React.useState(cuid());
@@ -32,9 +33,9 @@ const Chat: React.SFC = () => {
     <Widget
       handleNewUserMessage={handleNewUserMessage}
       title="Simple Dialogflow Bot"
-      subtitle="Made with ❤️ by Szymon Zalarski"
+      subtitle="Made with ❤️ by Szymon Zalarski & Igor Ślusarski"
       psenderPlaceHolder="Send a message..."
-      badge={0}
+      badge={1}
     />
   )
 }
